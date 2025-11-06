@@ -26,12 +26,14 @@ O <ins> Azure Policy ajuda a impor padrões organizacionais</ins> e a avaliar a 
 <br>
 
    <div align="center">
-   <img width="436" height="286" alt="Modify-effect1" src="https://github.com/user-attachments/assets/b5c235d2-6c35-495a-a437-6504ad59a51e" />
+   <img width="336" height="286" alt="Modify-effect1" src="https://github.com/user-attachments/assets/b5c235d2-6c35-495a-a437-6504ad59a51e" />
    </div>
 
 <br>
 
-  > A policy tem algumas condições ou estados, por exemplo, você pode criar uma policy, deixar ela pronta como se estivesse desativada (foi criada mas não está ativa).
+> [!NOTE] 
+> A policy tem algumas condições ou estados, por exemplo, você pode criar uma policy, deixar ela pronta como se estivesse desativada (foi criada mas não está ativa).
+ [!NOTE]
 <br>
 
 #### *Non-compliant: 
@@ -74,6 +76,58 @@ A policy tanto avalia como determina se o recurso que está sendo criado, ou que
 Bloqueio são herdáveis ao contrário das Tags. <br>
 **Bloqueio sempre cai na prova do AZ900.**
 [!IMPORTANT]
+
+<br>
+
+   <div align="center">
+   <img width="709" height="155" alt="Tipo-bloqueio1" src="https://github.com/user-attachments/assets/594c44da-a984-442c-aded-e4f181b24f53" />
+
+   </div>
+<br>
+
+O tipo de bloqueio que infere menor ação será sempre o de excluir, porque eu consigo ler e consigo atualizar.
+<br>
+<br>
+
+> [!WARNING] 
+> *Se um recurso recebe um bloqueio por estar em um Resource Group, quando ele é movido para outro Resource Group ele não leva esse bloqueio com ele. [!WARNING]
+<br>
+
+#### Portal de Confiança do Serviço
+Um link aberto ao público onde são disponibilizadas as informações de conformidade e segurança (útil, por exemplo, para auditorias).
+<br>
+<br>
+
+#### Microsoft Purview
+O Microsoft Purview é uma família de soluções de <ins> **governança, risco e conformidade de dados** </ins> que ajuda você a obter uma única exibição unificada em seus dados. O Microsoft Purview reúne insights sobre seus dados locais, multinuvem e de software como serviço.
+<br>
+  - Avalia estratégias de compliance.
+    - Informa quem pode ter acesso e alterar as informações, por exemplo.
+<br>
+- Descoberta de dados automatizada. <br>
+- Classificação de dados confidenciais. <br>
+- Linhagem de dados de ponta a ponta. <br>
+
+<br>
+
+#### Portal de Confiança - Certificações, regulamentos e padrões
+https://servicetrust.microsoft.com/
+
+<br>
+
+#### Revisão Governança e Conformidade
+
+[https://learn.microsoft.com/en-us/purview/purview](https://learn.microsoft.com/en-us/purview/purview)
+
+[https://learn.microsoft.com/training/modules/describe-cost-management-azure/1-introduction](https://learn.microsoft.com/training/modules/describe-cost-management-azure/1-introduction)
+
+[https://learn.microsoft.com/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-of-azure-policy](https://learn.microsoft.com/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-of-azure-policy)
+
+[https://learn.microsoft.com/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-of-resource-locks](https://learn.microsoft.com/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-of-resource-locks)
+
+
+
+
 
 
 
